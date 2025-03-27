@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dyna-q"
+version = "0.1.0"
+description = "An implementation of the DynaQ algorithm."
+authors = ["Noah Farr <login@noahfarr.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gymnasium = "0.29.1"
+torch = "^2.6.0"
+tyro = "^0.9.17"
+tensorboard = "^2.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
